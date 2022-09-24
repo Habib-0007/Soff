@@ -1,0 +1,155 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google sans", "sans serif";
+}
+
+header h4 {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin-top: 15px;
+    color: #0076ff;
+}
+
+.quadratic {
+    width: 90%;
+    height: 250px;
+    border: 1px solid #0076ff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quadratic h6 {
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+}
+
+.quadratic input {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    text-align: center;
+    outline-color: #0076ff;
+    border-radius: 5px;
+}
+
+.quadratic span {
+    font-size: 25px;
+}
+
+.quadratic #getResult {
+    display: block;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    color: #0076ff;
+    border: 2px solid #0076ff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.quadratic #getResult:hover {
+    background: #0076ff;
+    border: none;
+    color: #fff;
+}
+.quadratic #firstResult {
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+}
+
+.linear {
+    width: 90%;
+    height: 310px;
+    border: 1px solid #0076ff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.linear h6 {
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+}
+
+.linear input {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    text-align: center;
+    outline-color: #0076ff;
+    border-radius: 5px;
+}
+
+.linear div {
+    margin-top: 15px;
+}
+
+.linear span {
+    font-size: 25px;
+}
+
+.linear #getEquationResult {
+    display: block;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    color: #0076ff;
+    border: 2px solid #0076ff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.linear #getEquationResult:hover {
+    background: #0076ff;
+    border: none;
+    color: #fff;
+}
+
+.linear #oneResult, .linear #twoResult {
+    font-size: 25px;
+    margin-top: 15px;
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer .icons b {
+    display: block;
+    margin-top: 10px;
+}
+
+footer .icons {
+    /* height: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .icons a {
+    text-decoration: none;
+    color: #000;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+footer .icons #facebooklink {
+    margin-left: 0 !important;
+}
+
+footer .icons p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
