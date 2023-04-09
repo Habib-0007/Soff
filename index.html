@@ -5,24 +5,27 @@
     <title>Quadratic Equation Calculator</title>
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Google Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <header>
-        <h4> SOFF </h4>
+        <h4> Soffcal </h4>
     </header>
     <main>
     <section class="quadratic">
-        <h6> Quadratic Equation Calculator </h6>
-    <input type="number" id="firstValue">
+        <h6> Quadratic Equation: </h6>
+        <div>
+        <input type="text" id="firstValue">
     <span> x² +</span>
     
-    <input type="number" id="secondValue">
+    <input type="text" id="secondValue">
     <span> x +</span>
     
-    <input type="number" id="thirdValue">
+    <input type="text" id="thirdValue">
     <span> = 0</span>
+    </div>
     
     <button id="getResult" type="button"> Get Result </button>
     
@@ -31,21 +34,23 @@
     
     
     <section class="linear">
-        <h6> Simultaneous Linear Equation </h6>
-        <input type="number" id="coA">
+        <h6> Two Simultaneous Equation: </h6>
+        <div>
+        <input type="text" id="coA">
         <span> x +</span>
-        <input type="number" id="coB">
+        <input type="text" id="coB">
         <span> y =</span>
         
-        <input type="number" id="firstConstant">
+        <input type="text" id="firstConstant">
         
         <div>
-        <input type="number" id="coC">
+        <input type="text" id="coC">
         <span> x +</span>
-        <input type="number" id="coD">
+        <input type="text" id="coD">
         <span> y =</span>
         
-        <input type="number" id="secondConstant">
+        <input type="text" id="secondConstant">
+        </div>
         </div>
         
         <button type="button" id="getEquationResult"> Get Result</button>
@@ -54,17 +59,76 @@
         <label id="twoResult"></label>
        
     </section>
+    
+    
+    <section class="threeLinear">
+        <h6> Three Simultaneous Equation: </h6>
+        <div>
+            <div>
+        <input type="text" id="valA">
+        <span> x +</span>
+        <input type="text" id="valB">
+        <span> y + </span>
+        <input type="text" id="valC">
+        <span> z = </span>
+        
+        <input type="text" id="valD">
+            </div>
+        <div>
+       <input type="text" id="valE">
+        <span> x +</span>
+        <input type="text" id="valF">
+        <span> y + </span>
+        <input type="text" id="valG">
+        <span> z = </span>
+        
+        <input type="text" id="valH">
+        </div>
+        
+        <div>
+            <input type="text" id="valI">
+        <span> x +</span>
+        <input type="text" id="valJ">
+        <span> y + </span>
+        <input type="text" id="valK">
+        <span> z = </span>
+        
+        <input type="text" id="valL">
+        </div>
+        
+        </div>
+        
+        <button type="button" id="getThreeLinearRes"> Get Result</button>
+        
+        <label id="valDRes"></label>
+        <label id="valHRes"></label>
+        <label id="valLRes"></label>
+    </section>
     </main>
     
     <footer>
-        <section class="icons">
-            <b> Developed by Habib Adebayo </b>
-            <a href="https://www.facebook.com/habibopeyemi.adebayo" id="facebooklink"> <i class="fa fa-facebook-square"></i>
-           </a>
-            <a href="https://twitter.com/Habib_001"> <i class="fa fa-twitter"></i> </a>
-            <a href="https://wa.me/+2349019166356"> <i class="fa fa-whatsapp"> </i> </a>
-         <p> © 2022, All rights reserved </p>  
-        </section>
+        <li>
+            <a href="https://www.facebook.com/habibopeyemi.adebayo">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://twitter.com/Habib__001">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.github.com/Habib-0007">
+                <i class="fa fa-github"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://wa.me/+2349019166356">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+        </li>
     </footer>
     <script src="index.js"></script>
 </body>
